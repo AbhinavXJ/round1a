@@ -121,16 +121,7 @@ List the contents of the output directory:
 ls -l output/
 ```
 
-## 7. Important Notes
-File Naming: Ensure PDF filenames do not contain problematic characters. The output JSON files will be named exactly as corresponding PDFs, but with .json extension.
-
-Performance: Your solution must process a 50-page PDF within 10 seconds on an 8 CPU / 16GB RAM system (this is a runtime constraint to consider during development).
-
-Offline Compliance: The Docker image must run offline (--network none), and all models and dependencies are pre-fetched and bundled during the Docker build.
-
-Architecture: Ensure the solution runs on linux/amd64 CPU architecture, no GPU dependencies.
-
-## 8. Example Full Workflow
+## 7. Example Full Workflow
 bash
 Step 1: Prepare your directories and place PDFs
 ```console
@@ -153,7 +144,7 @@ ls -l output/
 cat output/your_pdf_filename.json
 ```
 
-## 9. Troubleshooting
+## 8. Troubleshooting
 If you encounter No PDF files found in input directory! error, ensure that your input directory contains valid PDF files and that volume mounting is correct.
 
 If the output files are not generated, verify that your main.py and Dockerfile paths are configured properly.
