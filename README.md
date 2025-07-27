@@ -165,4 +165,3 @@ docker run --rm -it -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --ne
 ```
 Then manually run your processing script inside the container.
 
-This instruction file ensures judges or users can confidently prepare input data, build, run, and verify your Round 1A solution per the hackathon requirements.
