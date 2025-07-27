@@ -48,13 +48,14 @@ This document explains how to prepare your input data, build the Docker image, r
 Place all PDF files you want to process into the input directory.
 
 For example:
-
+```console
 text
 input/
 ├── document1.pdf
 ├── document2.pdf
 ├── sample.pdf
 └── ...
+```
 
 ## 2. Output Directory
 This will be used to store the resulting JSON outline files.
