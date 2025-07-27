@@ -7,7 +7,7 @@ We built this project to read PDF files and figure out which lines are headings 
 
 So why this idea was used?
 
-PDF files don’t tell us directly which line is a heading. There’s no tag like <h1> or <h2> as in HTML. So, the only way to guess if a line is a heading is by looking at how it appears, like if it’s in a bigger font, bold, or placed at the top of the page.
+PDF files don’t tell us directly which line is a heading. There’s no tag like "h1" or "h2" and "h3" as in HTML. So, the only way to guess if a line is a heading is by looking at how it appears, like if it’s in a bigger font, bold, or placed at the top of the page.
 
 To do this smartly, a small trained machine learning model was used. This model looks at features like font size, boldness, and line position to decide:
 1. Is this line a heading?
